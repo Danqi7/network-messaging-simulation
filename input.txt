@@ -1,0 +1,56 @@
+create_machine laptop lp1 1.1.1.1
+create_machine server s1  1.1.1.0
+create_machine wan    w1  5.5.5.5
+create_machine wan    w2  6.6.6.6
+create_machine wan    w3  7.7.7.7
+system_status
+datagram  1.1.1.1  13.13.13.2 Message1
+system_status 1.1.1.1
+time_click
+system_status 1.1.1.1 1.1.1.0
+connect 1.1.1.1 1.1.1.0
+system_status 1.1.1.1 1.1.1.0
+time_click
+time_click
+system_status 1.1.1.1 1.1.1.0
+connect 1.1.1.0 5.5.5.5
+connect 5.5.5.5 6.6.6.6
+connect 5.5.5.5 7.7.7.7
+connect 6.6.6.6 7.7.7.7
+time_click
+system_status
+time_click
+system_status 6.6.6.6 7.7.7.7
+create_machine server s2  13.13.13.0
+create_machine laptop lp2 13.13.13.1
+create_machine laptop lp3 13.13.13.2
+create_machine laptop lp4 13.13.13.3
+create_machine laptop lp5 13.13.13.4
+datagram  13.13.13.1  13.13.13.2 Message2
+datagram  13.13.13.2  1.1.1.1    Message3
+datagram  13.13.13.3  13.13.13.2 Message4
+datagram  13.13.13.4  1.1.1.1    Message5
+system_status 13.13.13.0 13.13.13.1 13.13.13.2 13.13.13.3 13.13.13.4
+time_click
+system_status
+connect 6.6.6.6 13.13.13.0
+connect 13.13.13.0 13.13.13.1
+connect 13.13.13.0 13.13.13.2
+connect 13.13.13.0 13.13.13.3
+connect 13.13.13.0 13.13.13.4
+system_status 13.13.13.0 13.13.13.1 13.13.13.2 13.13.13.3 13.13.13.4
+time_click
+system_status 6.6.6.6  13.13.13.0 13.13.13.1 13.13.13.2 13.13.13.3 13.13.13.4
+time_click
+system_status
+time_click
+system_status 5.5.5.5 6.6.6.6 7.7.7.7
+consume_datagram 13.13.13.2
+time_click
+system_status 1.1.1.0 13.13.13.0 13.13.13.2
+time_click
+system_status 1.1.1.1 1.1.1.0
+consume_datagram 13.13.13.2
+time_click
+system_status
+halt

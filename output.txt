@@ -1,0 +1,1395 @@
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp1	token: 1.1.1.1	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: server	token: s1	token: 1.1.1.0	
+** Command CREATE_MACHINE recognized
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: wan	token: w1	token: 5.5.5.5	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: wan	token: w2	token: 6.6.6.6	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: wan	token: w3	token: 7.7.7.7	
+** Command CREATE_MACHINE recognized
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+Press ENTER to continue:
+
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: datagram	token: 1.1.1.1	token: 13.13.13.2	token: Message1	
+** Command DATAGRAM recognized
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+Press ENTER to continue:
+
+Number of tokens: 2
+token: system_status	token: 1.1.1.1	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: system_status	token: 1.1.1.1	token: 1.1.1.0	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 1.1.1.1	token: 1.1.1.0	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: system_status	token: 1.1.1.1	token: 1.1.1.0	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: system_status	token: 1.1.1.1	token: 1.1.1.0	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+Datagram 1:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 1.1.1.0	token: 5.5.5.5	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 5.5.5.5	token: 6.6.6.6	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 5.5.5.5	token: 7.7.7.7	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 6.6.6.6	token: 7.7.7.7	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers: 
+      Server 1:   1.1.1.0
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+Datagram 1:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+Number of tokens: 3
+token: system_status	token: 6.6.6.6	token: 7.7.7.7	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+Datagram 1:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: server	token: s2	token: 13.13.13.0	
+** Command CREATE_MACHINE recognized
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+Press ENTER to continue:
+
+
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp2	token: 13.13.13.1	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp3	token: 13.13.13.2	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp4	token: 13.13.13.3	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+
+
+Number of tokens: 4
+token: create_machine	token: laptop	token: lp5	token: 13.13.13.4	
+** Command CREATE_MACHINE recognized
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 13.13.13.1	token: 13.13.13.2	token: Message2	
+** Command DATAGRAM recognized
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Press ENTER to continue:
+
+Number of tokens: 4
+token: datagram	token: 13.13.13.2	token: 1.1.1.1	token: Message3	
+** Command DATAGRAM recognized
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Press ENTER to continue:
+
+
+Number of tokens: 4
+token: datagram	token: 13.13.13.3	token: 13.13.13.2	token: Message4	
+** Command DATAGRAM recognized
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+Press ENTER to continue:
+Number of tokens: 4
+token: datagram	token: 13.13.13.4	token: 1.1.1.1	token: Message5	
+** Command DATAGRAM recognized
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+Press ENTER to continue:
+
+Number of tokens: 6
+token: system_status	token: 13.13.13.0	token: 13.13.13.1	token: 13.13.13.2	token: 13.13.13.3	token: 13.13.13.4	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers: 
+      Server 1:   1.1.1.0
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+Datagram 1:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops:     List is empty.
+
+   Connections to WANs:        List is empty.
+
+   Message list:
+** List is empty. **
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+Laptop computer:    
+ Name: lp5   IP address: 13.13.13.4
+    Not connected to any server.
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 6.6.6.6	token: 13.13.13.0	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 13.13.13.0	token: 13.13.13.1	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+
+Number of tokens: 3
+token: connect	token: 13.13.13.0	token: 13.13.13.2	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 3
+token: connect	token: 13.13.13.0	token: 13.13.13.3	
+** Command CONNECT recognized
+Press ENTER to continue:
+Number of tokens: 3
+token: connect	token: 13.13.13.0	token: 13.13.13.4	
+** Command CONNECT recognized
+Press ENTER to continue:
+
+Number of tokens: 6
+token: system_status	token: 13.13.13.0	token: 13.13.13.1	token: 13.13.13.2	token: 13.13.13.3	token: 13.13.13.4	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops: 
+      Laptop 1:   13.13.13.1
+      Laptop 2:   13.13.13.2
+      Laptop 3:   13.13.13.3
+      Laptop 4:   13.13.13.4
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+Number of tokens: 7
+token: system_status	token: 6.6.6.6	token: 13.13.13.0	token: 13.13.13.1	token: 13.13.13.2	token: 13.13.13.3	token: 13.13.13.4	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers: 
+      Server 1:   13.13.13.0
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops: 
+      Laptop 1:   13.13.13.1
+      Laptop 2:   13.13.13.2
+      Laptop 3:   13.13.13.3
+      Laptop 4:   13.13.13.4
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 2:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 3:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+Datagram 4:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+Connected to 13.13.13.0
+
+   Incoming datagram:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers: 
+      Server 1:   1.1.1.0
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers: 
+      Server 1:   13.13.13.0
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 2:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops: 
+      Laptop 1:   13.13.13.1
+      Laptop 2:   13.13.13.2
+      Laptop 3:   13.13.13.3
+      Laptop 4:   13.13.13.4
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+Datagram 2:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+Connected to 13.13.13.0
+
+   Incoming datagram:  
+SOURCE: 1.1.1.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message1"
+
+
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+End of network.
+
+Press ENTER to continue:
+
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+Number of tokens: 4
+
+token: system_status	token: 5.5.5.5	token: 6.6.6.6	token: 7.7.7.7	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers: 
+      Server 1:   1.1.1.0
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+         WAN 2:   7.7.7.7
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 2:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers: 
+      Server 1:   13.13.13.0
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+Number of tokens: 2
+token: consume_datagram	token: 13.13.13.2	
+** Command CONSUME_DATAGRAM recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 4
+token: system_status	token: 1.1.1.0	token: 13.13.13.0	token: 13.13.13.2	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+Datagram 2:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops: 
+      Laptop 1:   13.13.13.1
+      Laptop 2:   13.13.13.2
+      Laptop 3:   13.13.13.3
+      Laptop 4:   13.13.13.4
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+
+
+
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+Connected to 13.13.13.0
+
+   Incoming datagram:  
+SOURCE: 13.13.13.1
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message2"
+
+
+   Outgoing datagram:  No datagram.
+
+End of network.
+
+Press ENTER to continue:
+
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+Number of tokens: 3
+token: system_status	token: 1.1.1.1	token: 1.1.1.0	
+** Command SYSTEM_STATUS recognized
+Selected nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 2
+token: consume_datagram	token: 13.13.13.2	
+** Command CONSUME_DATAGRAM recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: time_click	
+** Command TIME_CLICK recognized
+Press ENTER to continue:
+
+Number of tokens: 1
+token: system_status	
+** Command SYSTEM_STATUS recognized
+Nodes in the network:
+Laptop computer:     Name: lp1   IP address: 1.1.1.1
+Connected to 1.1.1.0
+
+   Incoming datagram:  
+SOURCE: 13.13.13.2
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message3"
+
+
+   Outgoing datagram:  No datagram.
+
+Server computer:     Name: s1   IP address: 1.1.1.0
+   Connections to laptops: 
+      Laptop 1:   1.1.1.1
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+
+   Message list:
+Datagram 1:  
+SOURCE: 13.13.13.4
+DESTINATION: 1.1.1.1
+LENGTH: 8
+MESSAGE: "Message5"
+
+
+
+
+
+
+WAN computer:     Name: w1   IP address: 5.5.5.5
+   Connections to servers: 
+      Server 1:   1.1.1.0
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w2   IP address: 6.6.6.6
+   Connections to servers: 
+      Server 1:   13.13.13.0
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   7.7.7.7
+
+   Message list:
+** List is empty. **
+
+
+
+
+WAN computer:     Name: w3   IP address: 7.7.7.7
+   Connections to servers:     List is empty.
+
+   Connections to WANs:    
+         WAN 1:   5.5.5.5
+         WAN 2:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+Server computer:     Name: s2   IP address: 13.13.13.0
+   Connections to laptops: 
+      Laptop 1:   13.13.13.1
+      Laptop 2:   13.13.13.2
+      Laptop 3:   13.13.13.3
+      Laptop 4:   13.13.13.4
+
+   Connections to WANs:    
+         WAN 1:   6.6.6.6
+
+   Message list:
+** List is empty. **
+
+
+
+
+Laptop computer:     Name: lp2   IP address: 13.13.13.1
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp3   IP address: 13.13.13.2
+Connected to 13.13.13.0
+
+   Incoming datagram:  
+SOURCE: 13.13.13.3
+DESTINATION: 13.13.13.2
+LENGTH: 8
+MESSAGE: "Message4"
+
+
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp4   IP address: 13.13.13.3
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+Laptop computer:     Name: lp5   IP address: 13.13.13.4
+Connected to 13.13.13.0
+
+   Incoming datagram:  No datagram.
+   Outgoing datagram:  No datagram.
+
+End of network.
+
+Press ENTER to continue:
+
+Number of tokens: 1
+token: halt	
+** Command HALT recognized
+Press ENTER to continue:
+
+That's all, folks.
+
+Program ended with exit code: 0
